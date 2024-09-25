@@ -1,4 +1,5 @@
 import "./globals.css";
+import Link from "next/link";
 
 export const metadata = {
   title: "Create Next App",
@@ -12,10 +13,10 @@ export default function RootLayout({ children }) {
         <nav className="mainNav">
           <ul>
             <li>
-              <a href="/">Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <a href="/pokemon">Pokemon</a>
+              <Link href="/pokemon">Pokemon</Link>
             </li>
           </ul>
         </nav>
